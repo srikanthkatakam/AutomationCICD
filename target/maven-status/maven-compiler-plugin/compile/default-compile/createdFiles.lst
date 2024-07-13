@@ -1,0 +1,8 @@
+Ecommerce\SeleniumFrameworkDesign\AbstractComponents\AbstractComponent.class
+Ecommerce\SeleniumFrameworkDesign\pageobjects\CartPage.class
+Ecommerce\SeleniumFrameworkDesign\resources\ExtentReporterNG.class
+Ecommerce\SeleniumFrameworkDesign\pageobjects\ConfirmationPage.class
+Ecommerce\SeleniumFrameworkDesign\pageobjects\LandingPage.class
+Ecommerce\SeleniumFrameworkDesign\pageobjects\OrderPage.class
+Ecommerce\SeleniumFrameworkDesign\pageobjects\CheckoutPage.class
+Ecommerce\SeleniumFrameworkDesign\pageobjects\ProductCatalogue.class

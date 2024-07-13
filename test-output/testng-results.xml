@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="1" total="7" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-08T14:49:00 BST" name="Suite" finished-at="2024-07-08T14:49:52 BST" duration-ms="52925">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationTest.loginErrorValidation()[pri:0, instance:Ecommerce.SeleniumFrameworkDesign.tests.ErrorValidationTest@22295ec4]" name="loginErrorValidation" class="Ecommerce.SeleniumFrameworkDesign.tests.ErrorValidationTest"/>
+      </group> <!-- ErrorHandling -->
+    </groups>
+    <test started-at="2024-07-08T14:49:00 BST" name="Submit Order Test" finished-at="2024-07-08T14:49:28 BST" duration-ms="28681">
+      <class name="Ecommerce.SeleniumFrameworkDesign.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Ecommerce.SeleniumFrameworkDesign.tests.SubmitOrderTest@19e4fcac]" started-at="2024-07-08T14:49:00 BST" name="launchApplication" finished-at="2024-07-08T14:49:07 BST" duration-ms="6795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitbutton(java.util.HashMap)[pri:0, instance:Ecommerce.SeleniumFrameworkDesign.tests.SubmitOrderTest@19e4fcac]" started-at="2024-07-08T14:49:07 BST" name="submitbutton" data-provider="getData" finished-at="2024-07-08T14:49:11 BST" duration-ms="4292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Rose@123, product=IPHONE 13 PRO, email=rosebute@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitbutton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ecommerce.SeleniumFrameworkDesign.tests.SubmitOrderTest@19e4fcac]" started-at="2024-07-08T14:49:11 BST" name="tearDown" finished-at="2024-07-08T14:49:11 BST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Ecommerce.SeleniumFrameworkDesign.tests.SubmitOrderTest@19e4fcac]" started-at="2024-07-08T14:49:11 BST" name="launchApplication" finished-at="2024-07-08T14:49:17 BST" duration-ms="6112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitbutton(java.util.HashMap)[pri:0, instance:Ecommerce.SeleniumFrameworkDesign.tests.SubmitOrderTest@19e4fcac]" started-at="2024-07-08T14:49:17 BST" name="submitbutton" data-provider="getData" finished-at="2024-07-08T14:49:21 BST" duration-ms="3911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Kohli@123, product=ZARA COAT 3, email=kohlivirat@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitbutton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ecommerce.SeleniumFrameworkDesign.tests.SubmitOrderTest@19e4fcac]" started-at="2024-07-08T14:49:21 BST" name="tearDown" finished-at="2024-07-08T14:49:21 BST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Ecommerce.SeleniumFrameworkDesign.tests.SubmitOrderTest@19e4fcac]" started-at="2024-07-08T14:49:21 BST" name="launchApplication" finished-at="2024-07-08T14:49:27 BST" duration-ms="5910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:Ecommerce.SeleniumFrameworkDesign.tests.SubmitOrderTest@19e4fcac]" started-at="2024-07-08T14:49:27 BST" name="OrderHistoryTest" finished-at="2024-07-08T14:49:28 BST" depends-on-methods="Ecommerce.SeleniumFrameworkDesign.tests.SubmitOrderTest.submitbutton" duration-ms="946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ecommerce.SeleniumFrameworkDesign.tests.SubmitOrderTest@19e4fcac]" started-at="2024-07-08T14:49:28 BST" name="tearDown" finished-at="2024-07-08T14:49:28 BST" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Ecommerce.SeleniumFrameworkDesign.tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+    <test started-at="2024-07-08T14:49:29 BST" name="Error Validation Test" finished-at="2024-07-08T14:49:52 BST" duration-ms="23840">
+      <class name="Ecommerce.SeleniumFrameworkDesign.tests.ErrorValidationTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Ecommerce.SeleniumFrameworkDesign.tests.ErrorValidationTest@22295ec4]" started-at="2024-07-08T14:49:29 BST" name="launchApplication" finished-at="2024-07-08T14:49:34 BST" duration-ms="5788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method retried="true" signature="loginErrorValidation()[pri:0, instance:Ecommerce.SeleniumFrameworkDesign.tests.ErrorValidationTest@22295ec4]" started-at="2024-07-08T14:49:34 BST" name="loginErrorValidation" finished-at="2024-07-08T14:49:36 BST" duration-ms="1203" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at Ecommerce.SeleniumFrameworkDesign.tests.ErrorValidationTest.loginErrorValidation(ErrorValidationTest.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ecommerce.SeleniumFrameworkDesign.tests.ErrorValidationTest@22295ec4]" started-at="2024-07-08T14:49:36 BST" name="tearDown" finished-at="2024-07-08T14:49:36 BST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Ecommerce.SeleniumFrameworkDesign.tests.ErrorValidationTest@22295ec4]" started-at="2024-07-08T14:49:36 BST" name="launchApplication" finished-at="2024-07-08T14:49:42 BST" duration-ms="6007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:Ecommerce.SeleniumFrameworkDesign.tests.ErrorValidationTest@22295ec4]" started-at="2024-07-08T14:49:42 BST" name="loginErrorValidation" finished-at="2024-07-08T14:49:43 BST" duration-ms="1182" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at Ecommerce.SeleniumFrameworkDesign.tests.ErrorValidationTest.loginErrorValidation(ErrorValidationTest.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ecommerce.SeleniumFrameworkDesign.tests.ErrorValidationTest@22295ec4]" started-at="2024-07-08T14:49:43 BST" name="tearDown" finished-at="2024-07-08T14:49:44 BST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Ecommerce.SeleniumFrameworkDesign.tests.ErrorValidationTest@22295ec4]" started-at="2024-07-08T14:49:44 BST" name="launchApplication" finished-at="2024-07-08T14:49:49 BST" duration-ms="5840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:Ecommerce.SeleniumFrameworkDesign.tests.ErrorValidationTest@22295ec4]" started-at="2024-07-08T14:49:49 BST" name="productErrorValidation" finished-at="2024-07-08T14:49:52 BST" duration-ms="2987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ecommerce.SeleniumFrameworkDesign.tests.ErrorValidationTest@22295ec4]" started-at="2024-07-08T14:49:52 BST" name="tearDown" finished-at="2024-07-08T14:49:52 BST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Ecommerce.SeleniumFrameworkDesign.tests.ErrorValidationTest -->
+    </test> <!-- Error Validation Test -->
+  </suite> <!-- Suite -->
+</testng-results>
